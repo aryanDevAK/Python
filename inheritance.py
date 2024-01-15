@@ -13,6 +13,9 @@ class Animal:
 class Dog(Animal):
     def walk(self):
         print(f"{self.animalName} is Walking!")
+    
+    def eatJiju(self):
+        print(f"{self.animalName} is eating Jiju :()")
 
 class Bird(Animal):
     def fly(self):
@@ -27,6 +30,7 @@ print(f"Alive --> {tigerie.alive} \nName --> {tigerie.animalName}")
 tigerie.eat()
 tigerie.sleep()
 tigerie.walk()
+tigerie.eatJiju()
 
 parrot = Bird(True,"Mithu")
 print(f"Alive --> {parrot.alive} \nName --> {parrot.animalName}")
