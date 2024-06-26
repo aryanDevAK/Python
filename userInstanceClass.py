@@ -15,3 +15,7 @@ print(guy2)
 print(guy2.fullName)
 print(guy2.username)
 print(type(guy2))
+
+service = "free"
+conditionValue = "You have paid for the service." if service == "paid" else "Please pay for the service."
+print(conditionValue)
